@@ -2,7 +2,7 @@ angular.module( 'starter.controllers', [ 'ionic' ] )
 
 .controller( 'home', function( $scope, $stateParams, $config ) {
   $scope.apiRoot = $config.apiRoot;
-  $scope.filter = { name: 'access' };
+  $scope.slug = 'access';
 } )
 
 .controller( 'posts', function( $scope, $config ) {
@@ -16,7 +16,7 @@ angular.module( 'starter.controllers', [ 'ionic' ] )
 
 .controller( 'page', function( $scope, $stateParams, $config ) {
   $scope.apiRoot = $config.apiRoot;
-  //$scope.filter = { name: 'donating' };
+  $scope.slug = $stateParams.slug;
 } )
 
 ;

@@ -1,27 +1,39 @@
 /* Empty. Add your own CSS if you like */
-img {
+img
+{
   max-width: 100%;
   height: auto;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+}
 
 .the-title,
 .the-content,
-.entry-meta {
+.entry-meta
+{
   width: 90%;
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+}
 
-.home {
-  background-image: url(../img/bg.jpg);
+.home
+{
+  background-image: url(../img/bg-default.jpg);
   background-size: cover;
   width: 100%;
-  height: 100%; }
-  .home .logo {
-    display: block;
-    position: absolute;
-    top: 50%;
-    margin-top: -50px;
-    width: 100%; }
-  .home .logo img {
-    display: block;
-    margin: auto; }
+  height: 100%;
+}
+
+.home .logo
+{
+  display: block;
+  position: absolute;
+  top: 50%;
+  margin-top: -50px;
+  width: 100%;
+}
+
+.home .logo img
+{
+  display: block;
+  margin: auto;
+}

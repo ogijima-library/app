@@ -44,7 +44,7 @@ angular.module( 'starter', [
   } );
 
   $stateProvider.state('app.home', {
-    cache: false,
+    cache: true,
     url: '/home',
     views: {
       'menuContent': {
@@ -55,7 +55,7 @@ angular.module( 'starter', [
   });
 
   $stateProvider.state('app.posts', {
-    cache: false,
+    cache: true,
     url: '/posts',
     views: {
       'menuContent': {
@@ -72,6 +72,17 @@ angular.module( 'starter', [
       'menuContent': {
         templateUrl: 'templates/single.html',
         controller: 'single'
+      }
+    }
+  });
+
+  $stateProvider.state('app.page', {
+    cache: true,
+    url: '/page/:slug',
+    views: {
+      'menuContent': {
+        templateUrl: 'templates/page.html',
+        controller: 'page'
       }
     }
   });
