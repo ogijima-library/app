@@ -48,8 +48,8 @@ angular.module( 'starter', [
     url: '/home',
     views: {
       'menuContent': {
-        templateUrl: 'templates/page.html',
-        controller: 'page'
+        templateUrl: 'templates/home.html',
+        controller: 'home'
       }
     }
   });

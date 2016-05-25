@@ -2,5 +2,38 @@
 img
 {
   max-width: 100%;
+  height: auto;
   box-sizing: border-box;
+}
+
+.the-title,
+.the-content,
+.entry-meta
+{
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.home
+{
+  background-image: url(../img/bg-default.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+
+  .logo
+  {
+    display: block;
+    position:absolute;
+    top: 50%;
+    margin-top: -50px ;
+    width: 100%;
+  }
+
+  .logo img
+  {
+    display: block;
+    margin: auto;
+  }
 }
