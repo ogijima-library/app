@@ -11,7 +11,6 @@ $ npm install ios-sim -g
 
 ```
 $ git clone git@github.com:ogijima-library/app.git
-$ npm install
 $ ionic serve
 ```
 
